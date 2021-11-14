@@ -31,7 +31,7 @@ The purpose of this analysis is to determine how the different campaigns fared i
 
 6. Create a line chart from the pivot table
 7. Analyze and conclude
-![](Theater_Outcomes_vs_Launch.png)
+![](Theater_Outcomes_Launch _Screenshot.png)
 
 
 
