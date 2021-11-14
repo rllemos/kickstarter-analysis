@@ -50,6 +50,7 @@ The purpose of this analysis is to determine how the different "Theater" campaig
 
 5. Next i populated the "Total Projects" column by using the SUM()formula.
 6. The percentage columns were set to percentage next I calculated the percentage of successful, failed and canceled projects for each row by divding the number of successful, failed, and canceled by the total projects for each of the ranges. Ex:B2/E2 for percenatge successful. C2/E2 for percentage failed.
+
 ![](Outcomes_Based_Goals_Screenshot.png)
 
 
