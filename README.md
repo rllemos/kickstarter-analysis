@@ -58,9 +58,8 @@ A challenge and difficulty that I encountered was the manipulation of the COUNTI
 
 -**What can you conclude about the Outcomes based on Goals?** It can be concluded from the Outcomes based on Goals sheet and chart that Goals set below 1000 have a higher chance of success. In other words the success rate for campaigns that set a goal of less than 1000 have a sucess rate of approximately 80%. Also, it is important to note that between goals of 35000-44999 the sucess rate is constant. For percentage failed, the chart shows that campaigns with a goal of less than 1000 has a lower chance of failing and goals larger than 45000 have a higher percenatge of failure.
 
-- **What are some limitations of this dataset?**
-This dataset does not account for other factors that could be affecting the data such as outliers and a small data sample. Also," Outcomes based on launch" is filtered by parent category "theater" while "Outcomes based on goals" is filtered by subcategory "plays". Therefore it would be wise to create additional tables and graphs with the same parent category and subcategory.
+-**What are some limitations of this dataset?**
+This dataset does not account for other factors that could be affecting the data such as small data sample and outiliers. Also," Outcomes based on launch" is filtered by parent category "theater" while "Outcomes based on goals" is filtered by subcategory "plays". Therefore it would be wise to create additional tables and graphs with the same parent category and subcategory.
 
-
-- **What are some other possible tables and/or graphs that we could create?**
+-**What are some other possible tables and/or graphs that we could create?**
 Some possible table and graphs that could be created to further analyze the relation between outcome,launch dates and goals is a pivot table of " Outcomes based on launch date" where we filter by subcategory "plays" instead of filtering for Parent category " theater". Another possible table and graph is to filter the "Outcome based on goals" pivot table by Parent Category and "theater".
