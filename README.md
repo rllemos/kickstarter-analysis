@@ -7,13 +7,13 @@ Performing analysis on Kickstarter data to uncover trends
 ## **Overview of Project
 >Louises's play came close to its fundraising goal in a short amount of time.Now, she wants to know how other campaigns fared in relations to their funding goal and launch dates. 
 
-Using the Kickstarter dataset we can determine the best time to launch a campaign to achieve their funding goals.
->1. Create two new analyses: outcomes based on goals and outcomes based on launch date
+## Using the Kickstarter dataset we can determine the best time to launch a campaign to achieve their funding goals.
+>1. Create two new analysis: outcomes("successful,""failed,"and "canceled") based on goals and outcomes("successful,""failed,"and "canceled")based on launch date
 >2. Create pivot tables and graphing in Excel to visualize campaign outcomes ("successful,""failed,"and "canceled")based on launch date.
 >3. Create pivot tables and graphing in Excel to visualize the percentage of "successful","failed", and "canceled" plays based on the funding goal amount.
 >4. Results:provide a written analysis and conclusions
 
-### **Purpose
+### *Purpose
 The purpose of this analysis is to determine how the different "Theater" campaigns fared in relation to their launch dates and their funding goals.
 
 
@@ -22,28 +22,23 @@ The purpose of this analysis is to determine how the different "Theater" campaig
 ### **Analysis of Outcomes Based on Launch Date
 
 1. I created a pivot table from the KickSarter worksheet, and placed the pivot table in a new sheet.
-
-2. On the PivotTable Fields I set columns to "outcomes", values to "outcomes",rows to "date created conversion", and set filters based on " Parent Category" and " Years"
-3. I filtered the column labels to only show "successful","failed",and"canceled" outcomes
-
-4. Filter the " Parent Category" to show only "theater"
-5. Sort the campaign outcomes in descending order,"successful" is the first label.
-
-6. Create a line chart from the pivot table
-7. Analyze and conclude
+2. On the PivotTable Fields I set columns to "outcomes", values to "outcomes",rows to "date created conversion", and set filters based on " Parent Category" and " Years".
+3. I filtered the column labels to only show "successful","failed",and"canceled" outcomes.
+4. Filter the " Parent Category" to show only "theater" campaigns.
+5. Sort the campaign outcomes in descending order,"successful" is the first label followed by failed and cancelled.
+6. Create a line chart from the pivot table to visualize the data.
+7. Analyze and conclude.
 
 ![](Theater_Outcomes_Launch_Screenshot.png)
 
 ### **Analysis of Outcomes Based on Goals
 
-1. I created a new sheet and labe it" Outcomes Based on Goals"
+1. I created a new sheet and labeled it" Outcomes Based on Goals".
 2. In the " Outcomes Based on Goals"sheet, the following collumns were created: Goal, Number Successful, Number Failed,Number Canceled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled.
-
-3. In the Goal column ranges were created from >1000 to <50000
-4. Using the Countifs()formula and setting each criteria and range based on the goal column.
-
-5. Next i populated the "Total Projects" column by using the SUM()formula.
-6. The percentage columns were set to percentage next I calculated the percentage of successful, failed and canceled projects for each row by divding the number of successful, failed, and canceled by the total projects for each of the ranges. Ex:B2/E2 for percenatge successful. C2/E2 for percentage failed.
+3. In the Goal column ranges were created from ranges between >1000 to <50000.
+4. Using the Countifs()function and setting each criteria and range based on the goal column.
+5. Next, I populated the "Total Projects" column by using the SUM()formula.
+6. The percentage columns were set to percentage. Further, I calculated the percentage of successful, failed and canceled projects for each row by divding the number of successful, failed, and canceled by the total projects for each of the ranges. Ex:B2/E2 for percenatge successful. C2/E2 for percentage failed.
 
 ![](Outcomes_Based_Goals_Screenshot.png)
 
